@@ -13,6 +13,6 @@ class TipoViewSet(viewsets.ModelViewSet):
     serializer_class = TipoSerializer
 
 class ProdutoViewSet(viewsets.ModelViewSet):
-    queryset = Produto.objects.all()
+    queryset = Produto.objects.all().order_by('id')
     serializer_class = ProdutoSerializer
     

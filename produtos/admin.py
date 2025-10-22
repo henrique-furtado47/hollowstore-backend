@@ -19,4 +19,4 @@ class ProdutoAdmin(admin.ModelAdmin):
     list_display = ('nome', 'preco', 'categoria', 'tipo', 'imagem')
     list_filter = ('categoria', 'tipo')
     search_fields = ('nome', 'descricao')
-    ordering = ('nome',)
+    ordering = ('id',)

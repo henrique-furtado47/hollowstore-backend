@@ -42,7 +42,7 @@ class Produto(models.Model):
     efeito = models.TextField(blank=True, null=True)
 
     class Meta:
-        ordering = ['nome']
+        ordering = ['id']
 
     def __str__(self):
         return self.nome
