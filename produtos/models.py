@@ -38,9 +38,11 @@ class Produto(models.Model):
     dano = models.IntegerField(blank=True, null=True)
     defesa = models.IntegerField(blank=True, null=True)
     durabilidade = models.IntegerField(blank=True, null=True)
+    seda = models.IntegerField(blank=True, null=True)
+    alma = models.IntegerField(blank=True, null=True)
     slot_custo = models.PositiveIntegerField(blank=True, null=True)
     efeito = models.TextField(blank=True, null=True)
-
+    
     class Meta:
         ordering = ['id']
 
