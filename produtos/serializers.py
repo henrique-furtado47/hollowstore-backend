@@ -21,5 +21,5 @@ class ProdutoSerializer(serializers.ModelSerializer):
         model = Produto
         fields = [
             'id', 'nome', 'descricao', 'preco', 'categoria', 'tipo', 'imagem',
-            'dano', 'defesa', 'durabilidade', 'slot_custo', 'efeito',
+            'dano', 'defesa', 'durabilidade', 'seda', 'alma', 'slot_custo', 'efeito',
         ]
