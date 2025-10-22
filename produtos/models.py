@@ -36,10 +36,10 @@ class Produto(models.Model):
     imagem = models.CharField(max_length=255, blank=True, null=True)
     # Campos opcionais
     dano = models.IntegerField(blank=True, null=True)
-    defesa = models.IntegerField(blank=True, null=True)
+    defesa = models.FloatField(blank=True, null=True)
     durabilidade = models.IntegerField(blank=True, null=True)
-    seda = models.IntegerField(blank=True, null=True)
-    alma = models.IntegerField(blank=True, null=True)
+    seda = models.FloatField(blank=True, null=True)
+    alma = models.FloatField(blank=True, null=True)
     slot_custo = models.PositiveIntegerField(blank=True, null=True)
     efeito = models.TextField(blank=True, null=True)
     
