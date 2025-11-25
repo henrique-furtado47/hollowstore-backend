@@ -4,6 +4,8 @@ from rest_framework import filters, viewsets
 from .models import Categoria, Produto, Tipo
 from .serializers import CategoriaSerializer, ProdutoSerializer, TipoSerializer
 
+from .pagination import CustomPagination
+
 
 class CategoriaViewSet(viewsets.ModelViewSet):
     queryset = Categoria.objects.all()
@@ -22,3 +24,4 @@ class ProdutoViewSet(viewsets.ModelViewSet):
     search_fields = ['nome', 'descricao']
     ordering_fields = ['preco', 'nome']
     ordering = ['id']
+    pagination_class = CustomPagination
