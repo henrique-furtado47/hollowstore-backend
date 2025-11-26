@@ -73,6 +73,8 @@ REST_FRAMEWORK = {
     ),
 }
 
+
+
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Hollow Store API',
     'DESCRIPTION': 'Documentação da API para a Hollow Store',

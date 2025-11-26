@@ -13,7 +13,6 @@ router.register(r'tipos', TipoViewSet)
 router.register(r'pedidos', PedidoViewSet)
 
 
-
 urlpatterns = [
     path('', include(router.urls)),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
