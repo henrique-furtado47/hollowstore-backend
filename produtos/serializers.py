@@ -2,7 +2,6 @@ from rest_framework import serializers
 
 from .models import Categoria, Produto, Tipo
 
-
 class CategoriaSerializer(serializers.ModelSerializer):
     class Meta:
         model = Categoria

@@ -6,7 +6,6 @@ from .serializers import CategoriaSerializer, ProdutoSerializer, TipoSerializer
 
 from .pagination import CustomPagination
 
-
 class CategoriaViewSet(viewsets.ModelViewSet):
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
