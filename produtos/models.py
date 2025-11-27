@@ -80,6 +80,7 @@ class ItemPedido(models.Model):
     quantidade = models.PositiveIntegerField(default=1)
     # É importante salvar o preço aqui, caso o preço do produto mude no futuro
     preco_unitario = models.DecimalField(max_digits=10, decimal_places=2)
+    imagem = models.CharField(max_length=255, blank=True, null=True)
 
     def __str__(self):
         return f"{self.quantidade}x {self.produto.nome}"
@@ -88,4 +89,5 @@ class ItemPedido(models.Model):
     def save(self, *args, **kwargs):
         if not self.preco_unitario:
             self.preco_unitario = self.produto.preco
+            self.imagem = self.produto.imagem
         super().save(*args, **kwargs)

@@ -29,7 +29,7 @@ class ItemPedidoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ItemPedido
-        fields = ['produto', 'nome_produto', 'quantidade', 'preco_unitario']
+        fields = ['produto', 'nome_produto', 'quantidade', 'preco_unitario',"imagem"]
 
 class PedidoSerializer(serializers.ModelSerializer):
     itens = ItemPedidoSerializer(many=True, read_only=True)
