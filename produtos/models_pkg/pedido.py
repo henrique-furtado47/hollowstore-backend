@@ -14,7 +14,7 @@ class Pedido(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='pedidos')
     data_criacao = models.DateTimeField(auto_now_add=True)
     atualizado_em = models.DateTimeField(auto_now=True)
-    status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='P')
+    status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='C')
 
     def __str__(self):
         return f"Pedido {self.id} - {self.user.username}"
