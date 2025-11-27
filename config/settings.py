@@ -10,8 +10,25 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
+import environ  # Importe django-environ
+
+# Inicializa django-environ
+env = environ.Env(
+    # Define o DEBUG padrão para True, mas espera um valor booleano
+    DEBUG=(bool, True) 
+)
+environ.Env.read_env() # Lê o .env local, se houver
+
+# Configurações de segurança e hosts
+SECRET_KEY = env('SECRET_KEY')
+DEBUG = env('DEBUG')
+
+# Render preenche o ALLOWED_HOSTS com sua URL.
+# O Render exige que você use o hostname dele quando não estiver em DEBUG.
+ALLOWED_HOSTS = ['*'] if DEBUG else [env('RENDER_EXTERNAL_HOSTNAME')]
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -54,6 +71,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', # Adicione aqui
 ]
 
 REST_FRAMEWORK = {
@@ -105,10 +124,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': env.db()  # Lê a variável de ambiente DATABASE_URL
 }
 
 
@@ -147,6 +163,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
