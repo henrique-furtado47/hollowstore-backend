@@ -5,7 +5,7 @@ from .item_pedido import ItemPedidoSerializer
 
 
 class PedidoSerializer(serializers.ModelSerializer):
-    itens = ItemPedidoSerializer(many=True, read_only=True)
+    itens = ItemPedidoSerializer(many=True)
 
     class Meta:
         model = Pedido
