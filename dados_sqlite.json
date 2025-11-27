@@ -1,0 +1,5946 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-10-22T12:22:42.045Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Amuleto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-10-22T12:35:52.761Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Ferramenta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-10-22T12:36:27.392Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Ferramenta",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-10-22T12:36:43.273Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Ferramenta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-10-22T12:38:06.753Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Ataque",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-10-22T12:38:10.752Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Ataque",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-10-22T12:38:16.648Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Ataque",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-10-22T12:38:20.896Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Exploração",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-10-22T12:38:28.215Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Movimentação",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-10-22T12:38:42.183Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Cura",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-10-22T12:39:06.392Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Combate",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-10-22T12:39:13.328Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Defesa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-10-22T12:44:54.635Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Dados de Magnetita",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-10-22T12:55:30.966Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Dados de Magnetita",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-10-22T12:59:59.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Pino Reto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-10-22T13:02:35.335Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Pino Tríplice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-10-22T13:06:40.558Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Fragmento de Ferrão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-10-22T13:06:56.453Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Pino Tríplice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Durabilidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-10-22T13:07:04.553Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Pino Tríplice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Durabilidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-10-22T13:07:13.654Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Fragmento de Ferrão",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Durabilidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-10-22T13:08:10.485Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Tachinhas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-10-22T13:08:20.172Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Fragmento de Ferrão",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\", \"Efeito\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-10-22T13:09:18.766Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Pinolongo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-10-22T13:10:03.878Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Curvagarra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-10-22T13:11:11.751Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Curvafoice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-10-22T13:12:10.927Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Anel de Arremesso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-10-22T13:13:04.920Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Almofapino",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-10-22T13:16:40.922Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Dados de Magnetita",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-10-22T13:16:48.665Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Pino Reto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-10-22T13:19:14.474Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Pino Reto",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-10-22T13:19:30.850Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Pino Tríplice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-10-22T13:19:48.530Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Fragmento de Ferrão",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-10-22T13:20:00.466Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Tachinhas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-10-22T13:20:15.282Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Pinolongo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-10-22T13:20:30.539Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Curvagarra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-10-22T13:20:40.228Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Curvafoice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-10-22T13:20:52.586Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Anel de Arremesso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-10-22T13:21:00.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Almofapino",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-10-22T13:21:26.730Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Dados de Magnetita",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-10-22T13:41:24.741Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Corta-concha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-10-22T13:44:50.983Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Tiro de Seda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-10-22T13:46:47.364Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Broca do Cavador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-10-22T13:48:40.235Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Roda Mecânica",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-10-22T13:52:18.752Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Dados de Magnetita",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-10-22T13:52:41.575Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Pino Tríplice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-10-22T13:52:53.154Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Fragmento de Ferrão",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-10-22T13:53:03.712Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Tachinhas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-10-22T13:53:16.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Pinolongo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-10-22T13:53:34.223Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Curvagarra",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-10-22T13:53:45.231Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Curvafoice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-10-22T13:53:59.303Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Anel de Arremesso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-10-22T13:54:13.254Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Almofapino",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-10-22T13:54:24.022Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Corta-concha",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-10-22T13:54:33.463Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Tiro de Seda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-10-22T13:54:51.982Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Broca do Cavador",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-10-22T13:55:08.341Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Roda Mecânica",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-10-22T13:57:18.572Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Mosca Mecânica",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-10-22T13:58:43.492Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Canhão de Rosários",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-10-22T14:03:12.354Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Orbevolts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-10-22T14:04:26.178Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Placa Ígnea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-10-22T14:05:59.577Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Aranhol",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-10-22T14:07:30.905Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Cerveja de Pulga",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-10-22T14:09:52.912Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Frasco de Plásmio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-10-22T14:13:24.915Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Seda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-10-22T14:13:27.084Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Alma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-10-22T14:16:35.526Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Olho do Druida",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-10-22T14:19:00.234Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "Olhos do Druida",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-10-22T14:20:22.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "Sino de Magma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-10-22T14:20:49.959Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "Sino Protetor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-10-22T14:21:46.576Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "26",
+    "object_repr": "Bolsa de Pólipo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-10-22T14:22:58.977Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "27",
+    "object_repr": "Máscara Fraturada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-10-22T14:23:52.560Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "28",
+    "object_repr": "Multivinculador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-10-22T14:25:15.464Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "29",
+    "object_repr": "Teceleve",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-10-22T14:26:19.937Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "30",
+    "object_repr": "Bainha Serrilhada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-10-22T14:27:03.170Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "31",
+    "object_repr": "Conjunto Injetor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-10-22T16:44:58.487Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "Sino Protetor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-10-22T16:46:30.421Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "32",
+    "object_repr": "Extensor de Carretel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-10-22T16:47:29.482Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "33",
+    "object_repr": "Vínculo Reserva",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-10-22T16:47:34.710Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "32",
+    "object_repr": "Extensor de Carretel",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slot custo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-10-22T16:49:00.782Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "34",
+    "object_repr": "Espelho de Garra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-10-22T16:49:47.757Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "35",
+    "object_repr": "Espelhos de Garra",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-10-22T16:50:46.488Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "36",
+    "object_repr": "Cristal da Memória",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-10-22T16:51:46.205Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "37",
+    "object_repr": "Catassaque",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-10-22T16:52:30.058Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "38",
+    "object_repr": "Filamento Voltaico",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-10-22T16:53:15.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "39",
+    "object_repr": "Sela Rápida",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-10-22T16:54:10.899Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "40",
+    "object_repr": "Guirlanda de Pureza",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-10-22T16:55:00.509Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "41",
+    "object_repr": "Garralonga",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-10-22T16:55:39.882Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "Lanterna de Lumefogo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-10-22T16:56:23.802Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "43",
+    "object_repr": "Ovo de Pulgalia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-10-22T16:56:56.616Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "44",
+    "object_repr": "Emblema de Pino",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-10-22T17:00:47.978Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "45",
+    "object_repr": "Bússola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-10-22T17:01:25.558Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "46",
+    "object_repr": "Pingente de Fragmento",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-10-22T17:02:00.986Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "47",
+    "object_repr": "Broche de Magnetita",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-10-22T17:02:37.902Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "48",
+    "object_repr": "Cinto Pesado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-10-22T17:03:28.154Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "49",
+    "object_repr": "Bracelete Farpado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-10-22T17:03:59.831Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "50",
+    "object_repr": "Bolsa do Inseto Morto",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-10-22T17:04:59.585Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "51",
+    "object_repr": "Mochila de Carapaça",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-10-22T17:05:37.772Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "52",
+    "object_repr": "Braçaranha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-10-22T17:06:13.040Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "53",
+    "object_repr": "Empunhadura de Subida",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-10-22T17:07:06.018Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "54",
+    "object_repr": "Cordões de Aranha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-10-22T17:07:43.430Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "55",
+    "object_repr": "Tornozeleiras Sedavelozes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-10-22T17:08:19.541Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "56",
+    "object_repr": "Marca do Ladrão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-10-22T17:12:44.091Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Fragmentos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-10-22T17:12:49.869Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Relíquias",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-10-22T17:13:42.408Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Máscaras",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-10-22T17:14:00.643Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Extensores",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-10-22T17:17:43.826Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "57",
+    "object_repr": "Fragmento de Máscara ( Hornet )",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-10-22T17:19:05.614Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "58",
+    "object_repr": "Máscara Antiga ( Hornet )",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-10-22T17:21:25.640Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Negociáveis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-10-22T17:21:33.884Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "59",
+    "object_repr": "Pergaminho de Osso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-10-22T17:22:09.957Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "60",
+    "object_repr": "Efígie de Tecelã",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-10-22T17:22:40.742Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "61",
+    "object_repr": "Mandamento Coral",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-10-22T17:23:26.922Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "62",
+    "object_repr": "Harpa Rúnica",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-10-22T17:23:57.981Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "63",
+    "object_repr": "Ovo Arcano",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-10-22T17:24:51.829Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "64",
+    "object_repr": "Cilindro de Salmos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-10-22T17:25:26.525Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "65",
+    "object_repr": "Cilindro Sagrado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-10-22T17:25:32.106Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "64",
+    "object_repr": "Cilindro de Salmos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-10-22T17:27:59.282Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "66",
+    "object_repr": "Fragmento de Carretel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-10-22T17:28:47.377Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "67",
+    "object_repr": "Carretel de Seda",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-10-22T17:28:55.194Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "66",
+    "object_repr": "Fragmento de Carretel",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Efeito\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-10-22T17:31:10.662Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "68",
+    "object_repr": "Bolsa de Ferramentas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-10-22T17:31:58.932Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "69",
+    "object_repr": "Kit de Artesanato",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-10-22T17:32:40.167Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Mantos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-10-22T17:33:15.367Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "70",
+    "object_repr": "Manto da Caçadora",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-10-22T17:34:38.661Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "71",
+    "object_repr": "Manto da Andarilha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-10-22T17:35:26.088Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "72",
+    "object_repr": "Manto Plumídio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-10-22T17:37:25.536Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Agulhas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-10-22T17:37:49.483Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Agulhas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-10-22T17:38:44.939Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "73",
+    "object_repr": "Agulha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-10-22T17:39:21.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "74",
+    "object_repr": "Agulha Afiada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-10-22T17:39:54.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "75",
+    "object_repr": "Agulha Reluzente",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-10-22T17:40:21.316Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "76",
+    "object_repr": "Agulha de Aço Favônio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-10-22T17:40:49.862Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "77",
+    "object_repr": "Agulha de Aço Pálido",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-10-23T10:53:22.836Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Equipamentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-10-23T10:53:31.348Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Extensores",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-10-23T10:53:58.895Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "69",
+    "object_repr": "Kit de Artesanato",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2025-10-23T10:54:10.360Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "68",
+    "object_repr": "Bolsa de Ferramentas",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2025-10-23T10:54:19.191Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "67",
+    "object_repr": "Carretel de Seda",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tipo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2025-10-23T11:19:13.429Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "78",
+    "object_repr": "Carapaça Robusta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2025-10-23T11:20:16.959Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "79",
+    "object_repr": "Apanhador de Almas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2025-10-23T11:21:11.385Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "80",
+    "object_repr": "Pedra do Xamã",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2025-10-23T11:22:01.613Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "81",
+    "object_repr": "Devorador de Almas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2025-10-23T11:23:22.740Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "82",
+    "object_repr": "Mestre da Esquiva",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2025-10-23T11:24:25.596Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "83",
+    "object_repr": "Mestre da Corrida",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2025-10-23T11:25:25.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "84",
+    "object_repr": "Canção das Larvas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2025-10-23T11:26:21.939Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "85",
+    "object_repr": "Elegia da Larvamosca",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2025-10-23T11:28:07.112Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "86",
+    "object_repr": "Coração Frágil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2025-10-23T11:29:07.186Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "87",
+    "object_repr": "Coração Inquebrável",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2025-10-23T11:30:17.569Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "88",
+    "object_repr": "Ganância Frágil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2025-10-23T11:30:50.710Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "89",
+    "object_repr": "Ganância Inquebrável",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2025-10-23T11:31:48.694Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "90",
+    "object_repr": "Força Frágil",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2025-10-23T11:31:53.956Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "88",
+    "object_repr": "Ganância Frágil",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Durabilidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2025-10-23T11:32:52.629Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "91",
+    "object_repr": "Força Inquebrável",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2025-10-23T11:34:48.068Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "92",
+    "object_repr": "Dobrador de Magias",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2025-10-23T11:35:26.154Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "93",
+    "object_repr": "Corpo Firme",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2025-10-23T11:36:08.810Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "94",
+    "object_repr": "Golpe Pesado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2025-10-23T11:40:12.513Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "95",
+    "object_repr": "Corte Rápido",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2025-10-23T11:40:18.583Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "94",
+    "object_repr": "Golpe Pesado",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slot custo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2025-10-23T11:40:39.904Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "94",
+    "object_repr": "Golpe Pesado",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slot custo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2025-10-23T11:41:06.231Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "95",
+    "object_repr": "Corte Rápido",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\", \"Slot custo\", \"Efeito\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2025-10-23T11:41:50.007Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "96",
+    "object_repr": "Ferrão Longo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2025-10-23T11:42:38.174Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "97",
+    "object_repr": "Marca de Orgulho",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2025-10-23T11:43:23.198Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "98",
+    "object_repr": "Fúria dos Caídos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2025-10-23T11:45:02.700Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "99",
+    "object_repr": "Espinhos da Agonia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2025-10-23T11:48:43.053Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "100",
+    "object_repr": "Carapaça de Baldur",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2025-10-23T11:49:25.427Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "101",
+    "object_repr": "Ninho de Flukes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2025-10-23T11:50:20.274Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "102",
+    "object_repr": "Insignia do Defensor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2025-10-23T11:51:27.924Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "103",
+    "object_repr": "Útero Brilhante",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2025-10-23T11:52:14.097Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "104",
+    "object_repr": "Foco Rápido",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2025-10-23T11:53:23.545Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "105",
+    "object_repr": "Foco Profundo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2025-10-23T11:54:20.616Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "106",
+    "object_repr": "Coração de Sangue Vital",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2025-10-23T11:55:27.593Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "107",
+    "object_repr": "Núcleo de Sangue Vital",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2025-10-23T11:56:25.904Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "108",
+    "object_repr": "Bênção de Joni",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2025-10-23T11:57:00.160Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "109",
+    "object_repr": "Sangue da Colmeia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2025-10-23T11:57:45.006Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "110",
+    "object_repr": "Cogumelo com Esporos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2025-10-23T11:58:26.847Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "111",
+    "object_repr": "Sombra Afiada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2025-10-23T11:59:26.543Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "112",
+    "object_repr": "Forma de Unn",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2025-10-23T12:00:34.235Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "113",
+    "object_repr": "Glória do Mestre do Ferrão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2025-10-23T12:01:44.346Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "113",
+    "object_repr": "Glória do Mestre do Ferrão",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2025-10-23T12:02:43.580Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "114",
+    "object_repr": "Canção das Tecelãs",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2025-10-23T12:03:39.628Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "115",
+    "object_repr": "Portador dos Sonhos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2025-10-23T12:05:15.813Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "116",
+    "object_repr": "Escudo dos Sonhos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2025-10-23T12:05:21.245Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "116",
+    "object_repr": "Escudo dos Sonhos",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2025-10-23T12:07:02.663Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "117",
+    "object_repr": "Criança Grimm",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2025-10-23T12:08:29.440Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "118",
+    "object_repr": "Melodia Despreocupada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2025-10-23T12:09:29.480Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "119",
+    "object_repr": "Alma do Rei",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2025-10-23T12:10:12.856Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "120",
+    "object_repr": "Coração Vazio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2025-10-23T12:15:46.937Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "121",
+    "object_repr": "Fragmento de Máscara ( Cavaleiro )",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2025-10-23T12:17:02.979Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "122",
+    "object_repr": "Máscara Antiga ( Cavaleiro )",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2025-10-23T12:18:42.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "123",
+    "object_repr": "Ovo Rançoso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2025-10-23T12:19:29.211Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "124",
+    "object_repr": "Diário de Viajante",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2025-10-23T12:19:39.101Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "123",
+    "object_repr": "Ovo Rançoso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2025-10-23T12:21:30.553Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "125",
+    "object_repr": "Selo de Hallownest",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2025-10-23T12:22:01.416Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "126",
+    "object_repr": "Ídolo do Rei",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2025-10-23T12:24:47.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "127",
+    "object_repr": "Manto de Asa de Mariposa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2025-10-23T12:25:32.305Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "128",
+    "object_repr": "Asas do Monarca",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2025-10-23T12:26:09.875Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "129",
+    "object_repr": "Garra de Louva-a-Deus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2025-10-23T12:27:07.394Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "130",
+    "object_repr": "Coração de Cristal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2025-10-23T12:28:04.578Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "131",
+    "object_repr": "Lágrima de Isma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2025-10-23T12:30:57.483Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "132",
+    "object_repr": "Manto Sombrio",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2025-10-23T12:31:24.943Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Ferrão",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2025-10-23T12:32:40.378Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "133",
+    "object_repr": "Ferrão dos Sonhos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2025-10-23T12:35:00.449Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "134",
+    "object_repr": "Ferrão dos Sonhos Despertado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2025-10-23T12:36:30.856Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "135",
+    "object_repr": "Ferrão Velho",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2025-10-23T12:37:07.267Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "136",
+    "object_repr": "Ferrão Afiado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2025-10-23T12:37:15.408Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "135",
+    "object_repr": "Ferrão Velho",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Dano\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2025-10-23T12:37:53.928Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "137",
+    "object_repr": "Ferrão Canalizado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2025-10-23T12:38:34.135Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "138",
+    "object_repr": "Ferrão Serpenteado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2025-10-23T12:39:09.647Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "139",
+    "object_repr": "Ferrão Puro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2025-10-29T12:20:01.895Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "139",
+    "object_repr": "Ferrão Puro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2025-11-26T21:50:45.053Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Placa Ígnea",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2025-11-26T23:30:11.235Z",
+    "user": 3,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Clientes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2025-11-26T23:30:17.048Z",
+    "user": 3,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Clientes",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2025-11-26T23:31:17.197Z",
+    "user": 3,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "cavaleiro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2025-11-26T23:31:44.839Z",
+    "user": 3,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "cavaleiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Email address\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2025-11-26T23:32:09.261Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - cavaleiro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"item pedido\", \"object\": \"1x Pinolongo\"}}, {\"added\": {\"name\": \"item pedido\", \"object\": \"1x Canh\\u00e3o de Ros\\u00e1rios\"}}, {\"added\": {\"name\": \"item pedido\", \"object\": \"1x Tiro de Seda\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2025-11-26T23:34:51.677Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - cavaleiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2025-11-26T23:38:07.863Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - cavaleiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2025-11-26T23:40:57.958Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - cavaleiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2025-11-26T23:45:32.070Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - cavaleiro",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"item pedido\", \"object\": \"1x Curvafoice\", \"fields\": [\"Produto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2025-11-26T23:45:40.275Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Pedido 1 - cavaleiro",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2025-11-26T23:45:51.285Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Pedido 2 - cavaleiro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"item pedido\", \"object\": \"1x Roda Mec\\u00e2nica\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2025-11-26T23:46:22.659Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Pedido 2 - cavaleiro",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2025-11-26T23:47:05.256Z",
+    "user": 3,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Pedido 3 - cavaleiro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"item pedido\", \"object\": \"1x Tiro de Seda\"}}, {\"added\": {\"name\": \"item pedido\", \"object\": \"1x Teceleve\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2025-11-26T23:55:49.984Z",
+    "user": 3,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Clientes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2025-11-27T11:52:52.556Z",
+    "user": 3,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "admin_teste",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Clientes",
+    "permissions": [
+      9,
+      13,
+      14,
+      15,
+      16,
+      20,
+      32,
+      44,
+      37,
+      38,
+      39,
+      40,
+      28,
+      36,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ZsAka8kCIgNbevfBdXZnIX$aZLhzxKSuqzW4qjBlXuyeGAeM9OV0wsLgR0UhZTsPo0=",
+    "last_login": "2025-10-22T16:43:57.486Z",
+    "is_superuser": true,
+    "username": "henrique.furtado",
+    "first_name": "",
+    "last_name": "",
+    "email": "henrique.furtadoifc@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-10-22T11:53:26.982Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$8azzfrQlHFs1fduZqcy16m$n1VHm41fWNxOsfXdaRJHRVirXCOtqYedChLJiyE/d3I=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "paulok3tchup",
+    "first_name": "",
+    "last_name": "",
+    "email": "paulocesarifc@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-10-22T11:53:53.478Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$CaoxismZLnQHsAqo8bKG8c$afWN7SWvE1nl+bNefPe5llhCkxIEh5Fa5HVv70EOThI=",
+    "last_login": "2025-11-27T11:29:12.792Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.admin",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-11-26T21:23:42.690Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$AV0nZnr1faXV4kfVQPuYlK$zGJtZ1MEUStFeITf3r9eSZOA9w4JwABD5P2vsxZryYY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "cavaleiro",
+    "first_name": "Knight",
+    "last_name": "",
+    "email": "caveleiro@hk.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-26T23:31:16Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$raj2EAm3a0C7bGnP70TT15$E4UJPsGnwmCyp8Q7Dv5Z5l3tCKLioof17cIJ97HE4Mo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "teste",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-27T12:05:26.314Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Mbnb5PTwpdf7zEj9NG5Hh3$U8r3XCgnHJYDkMnM/JcHCcS3bTAuYsWnglorLiN5b98=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "amongus",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-27T12:06:08.232Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "11gufdd9imwkk20y5j9dlxru8bh847r0",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyFC2QIevfsNZJcFqRpISnsy_rtt0oPeJvPezFsEXJcS1p7mMLG4iEGcfjvC-Ex1B_zAem8ytrrME8ldkQft8tY4va6H-3dQsJdtrT2gJU0xKwKAsyKXvWMLOluHFthb3PKoWfuYDSkgZ5wyOHo0eUDx-QLeGze2:1vOaBU:FZrNfvXVqVJk9DMrrMUmeQAJlMnKrKQtAiCC5DlMKg8",
+    "expire_date": "2025-12-11T11:29:12.796Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "15pzkgg4cz8jxvgrncgvkzn1ymy3u7af",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4YIZQv06L3fQHZ5SNVAUtqT8d9Nkx70OjOZN3jat-L3nla_RJhggMsvYwrPVA8RH1TvTYRWt3VhcSTitF3MLabX7Wz_BoV6gQmUQzKsOGTJiHiVbLOz0aDKxpLB6AyhyqOKyoWsWSJbbaWm0ZHOA8HnC94bN7Y:1vOMzm:dRa-fgM3bk97al0dl-pL5iswsPEb8x5ZW9zljXfC5BY",
+    "expire_date": "2025-12-10T21:24:14.539Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lwcpagxf196xr3g0328lshaqhsbuh6l2",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFAy6Mu3fsN5HC5kaqBpLQr479rky50e2bmvETEtpa4dV7inMVZaHH63RLowXUH-Y56a5JaXZc5yV2RB-3y2jI_L4f7d1DQy7dOasRkafDBOwtQcEp7pZUdwMwaRvlM0-BGk60zCMl5QrKU4Q0RSLw_zyM4Fg:1vBbwL:Cl42GRBS-1zRDKlZ7rcrS-QFo_VF9mBLkgInAOosolo",
+    "expire_date": "2025-11-05T16:43:57.496Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tm5zg201a452x5tvu6niree4keczetol",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFAy6Mu3fsN5HC5kaqBpLQr479rky50e2bmvETEtpa4dV7inMVZaHH63RLowXUH-Y56a5JaXZc5yV2RB-3y2jI_L4f7d1DQy7dOasRkafDBOwtQcEp7pZUdwMwaRvlM0-BGk60zCMl5QrKU4Q0RSLw_zyM4Fg:1vBXQ0:t7dAL0NLUeYcBZpK8gH7TVxFA41u0kT3TEF7cuB05iA",
+    "expire_date": "2025-11-05T11:54:16.577Z"
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 2,
+  "fields": {
+    "nome": "Combate",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 3,
+  "fields": {
+    "nome": "Exploração",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 4,
+  "fields": {
+    "nome": "Movimentação",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 5,
+  "fields": {
+    "nome": "Defesa",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 6,
+  "fields": {
+    "nome": "Seda",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 7,
+  "fields": {
+    "nome": "Alma",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.categoria",
+  "pk": 8,
+  "fields": {
+    "nome": "Negociáveis",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.pedido",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "data_criacao": "2025-11-26T23:47:05.253Z",
+    "atualizado_em": "2025-11-26T23:56:43.230Z",
+    "status": "P"
+  }
+},
+{
+  "model": "produtos.pedido",
+  "pk": 4,
+  "fields": {
+    "user": 7,
+    "data_criacao": "2025-11-27T12:09:58.147Z",
+    "atualizado_em": "2025-11-27T12:10:17.292Z",
+    "status": "P"
+  }
+},
+{
+  "model": "produtos.pedido",
+  "pk": 5,
+  "fields": {
+    "user": 7,
+    "data_criacao": "2025-11-27T12:10:04.007Z",
+    "atualizado_em": "2025-11-27T12:10:17.309Z",
+    "status": "P"
+  }
+},
+{
+  "model": "produtos.pedido",
+  "pk": 6,
+  "fields": {
+    "user": 7,
+    "data_criacao": "2025-11-27T12:10:29.771Z",
+    "atualizado_em": "2025-11-27T12:10:35.851Z",
+    "status": "P"
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 1,
+  "fields": {
+    "nome": "Amuleto",
+    "descricao": "Os Amuletos são acessórios lindos, místicos e únicos com uma centelha de energia tecida em seus núcleos. Apenas usar um é suficiente para mudar sua vida! Você fará coisas que você nunca pensou serem possíveis!"
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 2,
+  "fields": {
+    "nome": "Ferramenta",
+    "descricao": "Itens que fornecem habilidades ativas e passivas ao jogador."
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 4,
+  "fields": {
+    "nome": "Fragmentos",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 5,
+  "fields": {
+    "nome": "Relíquias",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 6,
+  "fields": {
+    "nome": "Máscaras",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 8,
+  "fields": {
+    "nome": "Equipamentos",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 9,
+  "fields": {
+    "nome": "Agulhas",
+    "descricao": "A Agulha é o termo usado para descrever a arma branca empunhada por Hornet"
+  }
+},
+{
+  "model": "produtos.tipo",
+  "pk": 10,
+  "fields": {
+    "nome": "Ferrão",
+    "descricao": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 1,
+  "fields": {
+    "nome": "Dados de Magnetita",
+    "descricao": "Brinquedos entalhados de material magnético.\r\n\r\nUsados em jogos simples; acredita-se que trazem sorte ao portador.",
+    "preco": "300.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/3/3a/Magnetite_Dice.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Oferece uma chance de anular o dano recebido em combate."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 2,
+  "fields": {
+    "nome": "Pino Reto",
+    "descricao": "Ferramenta leve de arremesso, criada para ataques rápidos.",
+    "preco": "50.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/0/03/Straight_Pin.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": 24,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 3,
+  "fields": {
+    "nome": "Pino Tríplice",
+    "descricao": "Arma plana e composta, criada para ser arremessada em conjunto",
+    "preco": "150.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b1/Threefold_Pin.png",
+    "dano": 30,
+    "defesa": null,
+    "durabilidade": 20,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 4,
+  "fields": {
+    "nome": "Fragmento de Ferrão",
+    "descricao": "Armadilha letal formada por lâminas agrupadas.",
+    "preco": "140.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/69/Sting_Shard.png",
+    "dano": 20,
+    "defesa": null,
+    "durabilidade": 12,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Quando instalada, a armadilha perfurará os inimigos que entrarem em contato."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 5,
+  "fields": {
+    "nome": "Tachinhas",
+    "descricao": "Pinos curtos criados para serem espalhados pelo chão.",
+    "preco": "120.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/ef/Tacks.png",
+    "dano": 25,
+    "defesa": null,
+    "durabilidade": 10,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "As pontas afiadas vão perfurar qualquer inimigo que pisar nelas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 6,
+  "fields": {
+    "nome": "Pinolongo",
+    "descricao": "Pino e punho balanceados. Feito para perfurar carapaças rígidas.",
+    "preco": "120.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/cb/Longpin.png",
+    "dano": 20,
+    "defesa": null,
+    "durabilidade": 20,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 7,
+  "fields": {
+    "nome": "Curvagarra",
+    "descricao": "Osso curvado usado por caçadores para abater presas voadoras.",
+    "preco": "140.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/20/Curveclaw.png",
+    "dano": 15,
+    "defesa": null,
+    "durabilidade": 16,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 8,
+  "fields": {
+    "nome": "Curvafoice",
+    "descricao": "Osso radial usado por caçadores experientes para abater presas perigosas.",
+    "preco": "420.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/60/Curvesickle.png",
+    "dano": 30,
+    "defesa": null,
+    "durabilidade": 16,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 9,
+  "fields": {
+    "nome": "Anel de Arremesso",
+    "descricao": "Arma de arremesso rígida da guerreira Shakra.",
+    "preco": "500.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/2b/Throwing_Ring.png",
+    "dano": 20,
+    "defesa": null,
+    "durabilidade": 20,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Arma de força bruta que ricocheteia entre inimigos e superfícies rígidas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 10,
+  "fields": {
+    "nome": "Almofapino",
+    "descricao": "Bolsa de tecido que contém um material volátil.",
+    "preco": "200.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b0/Pimpillo.png",
+    "dano": 50,
+    "defesa": null,
+    "durabilidade": 6,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Explode ao impacto com inimigos ou quando seu pavio é aceso."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 11,
+  "fields": {
+    "nome": "Corta-concha",
+    "descricao": "Arma em espiral criada a partir de uma concha-pináculo endurecida.",
+    "preco": "300.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/0/0f/Conchcutter.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": 16,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Se atirada em ângulo, pode ricochetear e atingir presas desprevenidas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 12,
+  "fields": {
+    "nome": "Tiro de Seda",
+    "descricao": "Antiga arma das Tecelãs, reparada até sua forma original.",
+    "preco": "340.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b3/Silkshot.png",
+    "dano": 25,
+    "defesa": null,
+    "durabilidade": 16,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Usa cartuchos de carapaças e a própria Seda do portador para disparar."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 13,
+  "fields": {
+    "nome": "Broca do Cavador",
+    "descricao": "Ferramenta giratória usada para perfurar osso e rocha.",
+    "preco": "300.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/85/Delver%27s_Drill.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": 18,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Conduz o usuário para baixo, enquanto gira a broca com força destrutiva."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 14,
+  "fields": {
+    "nome": "Roda Mecânica",
+    "descricao": "Lâmina circular expansiva alimentada por um motor mecânico.",
+    "preco": "360.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/8e/Cogwork_Wheel.png",
+    "dano": 12,
+    "defesa": null,
+    "durabilidade": 16,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Propulsiona-se para frente, fatiando os inimigos"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 15,
+  "fields": {
+    "nome": "Mosca Mecânica",
+    "descricao": "Mascote mecânico alado que procura inimigos próximos e os ataca.",
+    "preco": "400.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/ba/Cogfly.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": 8,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 16,
+  "fields": {
+    "nome": "Canhão de Rosários",
+    "descricao": "Mecanismo adaptado da base de uma máquina de montagem de rosários.",
+    "preco": "100.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/0/0d/Rosary_Cannon.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": 80,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Os rosários devem ser inseridos para recarregar o canhão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 17,
+  "fields": {
+    "nome": "Orbevolts",
+    "descricao": "Orbes transformáveis que contêm eletricidade.",
+    "preco": "250.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/75/Voltvessels.png",
+    "dano": 50,
+    "defesa": null,
+    "durabilidade": 10,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Podem ser atirados como uma boleadeira para causarem uma descarga explosiva ou cravados em uma haste para liberar uma coluna de energia."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 19,
+  "fields": {
+    "nome": "Aranhol",
+    "descricao": "Ferramenta das Tecelãs, para montar armadilhas.",
+    "preco": "400.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/68/Snare_Setter.png",
+    "dano": 15,
+    "defesa": null,
+    "durabilidade": 10,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Coloca uma runa de Seda que acende quando inimigos entram em contato."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 20,
+  "fields": {
+    "nome": "Cerveja de Pulga",
+    "descricao": "Bebida revigorante preparada pela Caravana das Pulgas.",
+    "preco": "10.00",
+    "categoria": 4,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/d/d0/Flea_Brew.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": 6,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta temporariamente a velocidade de movimento e ataques."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 21,
+  "fields": {
+    "nome": "Frasco de Plásmio",
+    "descricao": "Frasco em formato de lança contendo Plásmio.",
+    "preco": "150.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/82/Plasmium_Phial.png",
+    "dano": null,
+    "defesa": 1.0,
+    "durabilidade": 6,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Injetar o líquido permite obter vida além dos seus limites naturais."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 22,
+  "fields": {
+    "nome": "Olho do Druida",
+    "descricao": "Amuleto de proteção formado por Musgogabas.",
+    "preco": "50.00",
+    "categoria": 6,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/13/Druid%27s_Eye.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": 1.0,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Quando o portador sofre dano, o amuleto chora um elixir verde que se transformará em Seda."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 23,
+  "fields": {
+    "nome": "Olhos do Druida",
+    "descricao": "Amuleto poderoso de proteção formado por muitas Musgogabas.",
+    "preco": "150.00",
+    "categoria": 6,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/c2/Druid%27s_Eyes.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": 3.0,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Quando o portador sofre dano, o amuleto chora um elixir verde que se transformará em Seda."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 24,
+  "fields": {
+    "nome": "Sino de Magma",
+    "descricao": "Sino de ferro forjado, criado para proteger do calor intenso das Docas Profundas.",
+    "preco": "110.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/72/Magma_Bell.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Reduz o dano recebido das chamas e do magma."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 25,
+  "fields": {
+    "nome": "Sino Protetor",
+    "descricao": "Sino sagrado que tem inscrito um hino de proteção.",
+    "preco": "120.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/8c/Warding_Bell.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Protege o portador enquanto cuida de suas feridas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 26,
+  "fields": {
+    "nome": "Bolsa de Pólipo",
+    "descricao": "Bolsa que contém um veneno de ação rápida, obtido do coração de uma flor.",
+    "preco": "100.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/82/Pollip_Pouch.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aplica veneno a ferramentas equipadas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 27,
+  "fields": {
+    "nome": "Máscara Fraturada",
+    "descricao": "Crânio de um antigo inseto, entalhado para proteção.",
+    "preco": "260.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/51/Fractured_Mask.png",
+    "dano": null,
+    "defesa": 1.0,
+    "durabilidade": 1,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Protege de danos críticos, mas quebra ao impacto. Se quebrada, a máscara será reparada enquanto descansa em um banco."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 28,
+  "fields": {
+    "nome": "Multivinculador",
+    "descricao": "Fuso elaborado e gravado de Tecelã, usado apenas por portadores de Seda.",
+    "preco": "880.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/19/Multibinder.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Estende o ato de vincular, mas aumenta seu efeito curativo."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 29,
+  "fields": {
+    "nome": "Teceleve",
+    "descricao": "Aparato brilhante fabricado por Tecelãs. Seu núcleo emite um brilho suave.",
+    "preco": "440.00",
+    "categoria": 6,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/5f/Weavelight.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": 1.0,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta a velocidade de regeneração de Seda."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 30,
+  "fields": {
+    "nome": "Bainha Serrilhada",
+    "descricao": "Cinto flexível de dentes serrados de metal que pode ser preso à bainha de um manto.",
+    "preco": "230.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/45/Sawtooth_Circlet.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "As lâminas girarão ao agitar o manto, causando dano aos inimigos próximos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 31,
+  "fields": {
+    "nome": "Conjunto Injetor",
+    "descricao": "Conjunto de pinos cirúrgicos da Ala Branca. Usados para inserir Seda à força no interior da carapaça de um inseto.",
+    "preco": "210.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/d/dd/Injector_Band.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta a velocidade de vínculo."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 32,
+  "fields": {
+    "nome": "Extensor de Carretel",
+    "descricao": "Ferramenta de armazenamento de Seda da Cidadela, criada a partir de um artefato das Tecelãs.",
+    "preco": "720.00",
+    "categoria": 6,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/17/Spool_Extender.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": 3.0,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Permite o armazenamento de Seda adicional, além das próprias habilidades naturais."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 33,
+  "fields": {
+    "nome": "Vínculo Reserva",
+    "descricao": "Artefato ornamental da Cidadela, capaz de conter o equivalente a um Vínculo de Seda.",
+    "preco": "600.00",
+    "categoria": 5,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/13/Reserve_Bind.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": 1,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Usado quando a cura é necessária e há escassez de recursos naturais.\r\nO Vínculo Reserva será restaurado ao descansar em um banco."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 34,
+  "fields": {
+    "nome": "Espelho de Garra",
+    "descricao": "Ferramenta teatral de um inseto vaidoso.",
+    "preco": "500.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/f/fe/Claw_Mirror.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Enquanto vincula, emite um lampejo ofuscante que causa dano a inimigos próximos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 35,
+  "fields": {
+    "nome": "Espelhos de Garra",
+    "descricao": "Ferramentas teatrais duplas de um inseto vaidoso.",
+    "preco": "900.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/75/Claw_Mirrors.png",
+    "dano": 20,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Enquanto vincula, emite uma explosão ardente que causa dano a inimigos próximos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 36,
+  "fields": {
+    "nome": "Cristal da Memória",
+    "descricao": "Cristal da Memória\r\nPedra refletiva com propriedades mnemônicas.",
+    "preco": "600.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/6b/Memory_Crystal.png",
+    "dano": 15,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Ao sofrer dano, uma memória do portador é formada em cristal. A memória se quebrará em lascas afiadas se um inimigo entrar em contato."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 37,
+  "fields": {
+    "nome": "Catassaque",
+    "descricao": "Ferramenta com gancho para recuperar à força o saque de insetos e carcaças.",
+    "preco": "740.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/eb/Snitch_Pick.png",
+    "dano": 12,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Arpoe inimigos para roubar rosários e fragmentos de carapaça, enquanto causa dano adicional."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 38,
+  "fields": {
+    "nome": "Filamento Voltaico",
+    "descricao": "Órgão carregado de um Voltvyrm derrotado.",
+    "preco": "600.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/c4/Volt_Filament.png",
+    "dano": 15,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Pode ser enrolado ao redor de fios, imbuindo Habilidades de Seda com carga elétrica."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 39,
+  "fields": {
+    "nome": "Sela Rápida",
+    "descricao": "Mecanismo de ajuste feito com junco e osso, para montar em um inseto.",
+    "preco": "560.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/4a/Quick_Sling.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Dobra o número de ferramentas arremessadas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 40,
+  "fields": {
+    "nome": "Guirlanda de Pureza",
+    "descricao": "Cinta frágil feita de junco e folha, feita para repelir Larvas-do-Lodo.",
+    "preco": "340.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/c2/Wreath_of_Purity.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": 1,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Se quebrada, a guirlanda será reparada enquanto descansa em um banco."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 41,
+  "fields": {
+    "nome": "Garralonga",
+    "descricao": "Talismã criado a partir da garra de um grande predador.",
+    "preco": "1100.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/73/Longclaw.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta o alcance dos ataques da agulha."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 42,
+  "fields": {
+    "nome": "Lanterna de Lumefogo",
+    "descricao": "Lanterna de ferro quebrada, que contém lumefogo fumegante.",
+    "preco": "780.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/80/Wispfire_Lantern.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Lumes serão gerados da lanterna e queimarão inimigos, ao custo de Seda"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 43,
+  "fields": {
+    "nome": "Ovo de Pulgalia",
+    "descricao": "Ícone da mítica pulga-mãe, passado através de antigas caravanas. Um símbolo de proteção e afinidade.",
+    "preco": "1600.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/a/a4/Egg_of_Flealia.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Reduz o custo de Habilidades de Seda quando a vida está cheia."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 44,
+  "fields": {
+    "nome": "Emblema de Pino",
+    "descricao": "Emblema da Ordem da Alfinistra, as velhas mestras de lâmina de Fiarlongo.",
+    "preco": "1400.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/50/Pin_Badge.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Reduz o tempo de carregamento do Ataque de Foco."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 45,
+  "fields": {
+    "nome": "Bússola",
+    "descricao": "Dispositivo complexo de rastreamento. esculpido em uma carapaça.",
+    "preco": "70.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/92/Compass.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Quando equipado, mostrará a localização do portador em seu mapa."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 46,
+  "fields": {
+    "nome": "Pingente de Fragmento",
+    "descricao": "Bugiganga rústica usada por coletores e fabricantes.",
+    "preco": "60.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/f/f2/Shard_Pendant.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Permite coletar mais fragmentos de carapaças de criaturas derrotadas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 47,
+  "fields": {
+    "nome": "Broche de Magnetita",
+    "descricao": "Pedra sagrada com uma prece gravada para rosários.",
+    "preco": "120.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/22/Magnetite_Brooch.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "As contas soltas serão atraídas em direção ao portador."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 48,
+  "fields": {
+    "nome": "Cinto Pesado",
+    "descricao": "Cinta pesada preferida por aqueles com um passo instável.",
+    "preco": "160.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/ee/Weighted_Belt.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "O portador recuará menos ao atingir os inimigos e não será arremessado tão longe quando sofrer dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 49,
+  "fields": {
+    "nome": "Bracelete Farpado",
+    "descricao": "Bracelete perigoso usado por aqueles que acreditam que não foram punidos o suficiente.",
+    "preco": "400.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/5e/Barbed_Bracelet.png",
+    "dano": 30,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta o dano recebido, mas também aumenta o dano causado pela agulha."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 50,
+  "fields": {
+    "nome": "Bolsa do Inseto Morto",
+    "descricao": "Bolsa descartada de um peregrino abatido.",
+    "preco": "300.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/f/fc/Dead_Bug%27s_Purse.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Permite que o portador mantenha alguns rosários ao ser derrotado."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 51,
+  "fields": {
+    "nome": "Mochila de Carapaça",
+    "descricao": "Bolsa de acesso rápido, feita com uma velha carapaça.",
+    "preco": "550.00",
+    "categoria": 2,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/a/ad/Shell_Satchel.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta a quantidade de ferramentas fabricadas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 52,
+  "fields": {
+    "nome": "Braçaranha",
+    "descricao": "Espinha artificial presa firmemente ao redor da carapaça.",
+    "preco": "140.00",
+    "categoria": 4,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/0/05/Scuttlebrace.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta a flexibilidade inata do portador, permitindo uma fuga rápida."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 53,
+  "fields": {
+    "nome": "Empunhadura de Subida",
+    "descricao": "Pitão dourado que permite se manter no lugar enquanto sobe em uma parede.",
+    "preco": "350.00",
+    "categoria": 4,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/25/Ascendant%27s_Grip.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Pitão dourado que permite se manter no lugar enquanto sobe em uma parede."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 54,
+  "fields": {
+    "nome": "Cordões de Aranha",
+    "descricao": "Dispositivo sofisticado de Tecelã. Ressoa com a música tocada para amplificar e aprimorar uma performance.",
+    "preco": "320.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/bf/Spider_Strings.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Expande e fortalece os efeitos do Agulino."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 55,
+  "fields": {
+    "nome": "Tornozeleiras Sedavelozes",
+    "descricao": "Tornozeleiras experimentais fabricadas por Tecelãs.",
+    "preco": "400.00",
+    "categoria": 4,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b3/Silkspeed_Anklets.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Usam a própria Seda do portador para aumentar a velocidade de corrida."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 56,
+  "fields": {
+    "nome": "Marca do Ladrão",
+    "descricao": "Símbolo usado para se identificar entre seus companheiros ladrões.",
+    "preco": "350.00",
+    "categoria": 3,
+    "tipo": 2,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/48/Thief%27s_Mark.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Ganha rosários extras de inimigos derrotados, mas perde alguns rosários ao sofrer dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 57,
+  "fields": {
+    "nome": "Fragmento de Máscara ( Hornet )",
+    "descricao": "Um fragmento de uma máscara anUm fragmento de uma máscara antiga usada para se proteger de danostiga usada para se proteger de danos",
+    "preco": "750.00",
+    "categoria": 5,
+    "tipo": 4,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/9b/Mask_Shard_%28Silksong%29.png",
+    "dano": null,
+    "defesa": 0.25,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumenta o máximo de máscaras"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 58,
+  "fields": {
+    "nome": "Máscara Antiga ( Hornet )",
+    "descricao": "Uma máscara antiga esculpida em minério frio e pálido. A máscara protege quem a usa, protegendo sua carapaça contra danos",
+    "preco": "3000.00",
+    "categoria": 5,
+    "tipo": 6,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/56/SS_Ancient_Mask.png",
+    "dano": null,
+    "defesa": 1.0,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumenta o máximo de máscaras"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 59,
+  "fields": {
+    "nome": "Pergaminho de Osso",
+    "descricao": "Diário rudimentar feito de tecido grosso e osso, deixado por um peregrino caído.\r\nUma relíquia do passado de Pharloom, interessante para colecionadores de itens históricos.",
+    "preco": "90.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/e7/Bone_Scroll.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 60,
+  "fields": {
+    "nome": "Efígie de Tecelã",
+    "descricao": "Ídolo esculpido em osso de um antigo tecelão. Uma oração está gravada em seu corpo.\r\nUma relíquia do passado de Pharloom, interessante para colecionadores de itens históricos.",
+    "preco": "150.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/cd/Weaver_Effigy.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 61,
+  "fields": {
+    "nome": "Mandamento Coral",
+    "descricao": "Ordem emitida pela Cidadela. O selo outrora brilhante se desgastou com o tempo.\r\nUma relíquia do passado de Pharloom, interessante para colecionadores de itens históricos.",
+    "preco": "180.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/77/Choral_Commandment.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 62,
+  "fields": {
+    "nome": "Harpa Rúnica",
+    "descricao": "Antigo instrumento de gravação das Tecelãs, com runas de seda enfiadas. As runas desbotadas guardam as palavras de uma Tecelã de eras passadas.\r\nUma relíquia do passado de Pharloom, interessante para colecionadores de itens históricos.",
+    "preco": "210.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/eb/Rune_Harp.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 63,
+  "fields": {
+    "nome": "Ovo Arcano",
+    "descricao": "Ovo de pedra preta formado antes do nascimento de Pharloom.\r\nUma relíquia do passado antigo. Muito valorizada por colecionadores de itens históricos.",
+    "preco": "600.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/44/Arcane_Egg_Silksong.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 64,
+  "fields": {
+    "nome": "Cilindro de Salmos",
+    "descricao": "Cilindro metálico da Cidadela, gravado com uma gravação de som.\r\nO cilindro pode ser tocado em um gramofone.",
+    "preco": "200.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/41/Psalm_Cylinder.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 65,
+  "fields": {
+    "nome": "Cilindro Sagrado",
+    "descricao": "Cilindro metálico fabricado na Cidadela, gravado com a melodia dos Guardiões do Cofre.\r\nO cilindro pode ser tocado em um gramofone.",
+    "preco": "320.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/d/d0/Sacred_Cylinder.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 66,
+  "fields": {
+    "nome": "Fragmento de Carretel",
+    "descricao": "Metade de um artefato deixado pelos Tecelões, projetado para coletar e armazenar seda.\r\nUm carretel completo permitirá que você segure mais seda dentro da concha.",
+    "preco": "680.00",
+    "categoria": 6,
+    "tipo": 4,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/63/Spool_Fragment.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": 0.25,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumenta a capacidade de seda"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 67,
+  "fields": {
+    "nome": "Carretel de Seda",
+    "descricao": "Artefato deixado pelos Tecelões, projetado para coletar e armazenar seda adicional",
+    "preco": "1360.00",
+    "categoria": 6,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/c0/Silk_Spool.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": 1.0,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumenta a capacidade de seda"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 68,
+  "fields": {
+    "nome": "Bolsa de Ferramentas",
+    "descricao": "Bolsa básica projetada para guardar ferramentas, armadilhas e materiais de artesanato.",
+    "preco": "220.00",
+    "categoria": 3,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/e9/Tool_Pouch.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumentar a capacidade das ferramentas\r\nAumentar a capacidade dos fragmentos de concha"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 69,
+  "fields": {
+    "nome": "Kit de Artesanato",
+    "descricao": "Se você adicionar os implementos deste conjunto ao seu, a qualidade do seu artesanato aumentará.",
+    "preco": "700.00",
+    "categoria": 2,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/5d/Crafting_Kit.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumentar o dano das ferramentas"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 70,
+  "fields": {
+    "nome": "Manto da Caçadora",
+    "descricao": "Traje protetor simples, habilmente tecido, mas mostrando sinais de idade.",
+    "preco": "1000.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/d/d7/Hunter%27s_Cloak.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 71,
+  "fields": {
+    "nome": "Manto da Andarilha",
+    "descricao": "Traje protetor simples, costurado com espinhos flexíveis.",
+    "preco": "2000.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/3/3d/Drifter%27s_Cloak.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Permite que navegue em correntes ascendentes ou deslize lentamente para baixo"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 72,
+  "fields": {
+    "nome": "Manto Plumídio",
+    "descricao": "Traje protetor forrado com penugem macia de Fayforn e costurado com espinhos flexíveis.",
+    "preco": "4000.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/94/Faydown_Drifter%27s_Cloak.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Permite pular mais uma vez e se protege contra o frio"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 73,
+  "fields": {
+    "nome": "Agulha",
+    "descricao": "Ferramenta de costura alongada, especificamente adaptada para o combate. O gume está marcado pelo tempo e pelo uso.",
+    "preco": "10.00",
+    "categoria": 2,
+    "tipo": 9,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/9f/Needle_1_Needle.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 74,
+  "fields": {
+    "nome": "Agulha Afiada",
+    "descricao": "Ferramenta de costura alongada, especificamente adaptada para o combate. O gume é afiado com precisão em um fio mortal.",
+    "preco": "100.00",
+    "categoria": 2,
+    "tipo": 9,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/thumb/8/87/Needle_2_Sharpened_Needle.png/36px-Needle_2_Sharpened_Needle.png",
+    "dano": 9,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 75,
+  "fields": {
+    "nome": "Agulha Reluzente",
+    "descricao": "Ferramenta de costura alongada, especificamente adaptada para o combate. Seu gume reluz com um corte sem igual.",
+    "preco": "200.00",
+    "categoria": 2,
+    "tipo": 9,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/thumb/5/52/Needle_3_Shining_Needle.png/36px-Needle_3_Shining_Needle.png",
+    "dano": 13,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 76,
+  "fields": {
+    "nome": "Agulha de Aço Favônio",
+    "descricao": "Ferramenta de costura alongada, especificamente adaptada para o combate. A precisão do fio revela os padrões do Aço Favônio.",
+    "preco": "450.00",
+    "categoria": 2,
+    "tipo": 9,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/thumb/0/09/Needle_4_Hivesteel_Needle.png/36px-Needle_4_Hivesteel_Needle.png",
+    "dano": 17,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 77,
+  "fields": {
+    "nome": "Agulha de Aço Pálido",
+    "descricao": "Ferramenta de costura alongada, especificamente adaptada para o combate. A lâmina de Aço Favônio foi afiada à sua forma definitiva.",
+    "preco": "900.00",
+    "categoria": 2,
+    "tipo": 9,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/thumb/f/f0/Needle_5_Pale_Steel_Needle.png/36px-Needle_5_Pale_Steel_Needle.png",
+    "dano": 21,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 78,
+  "fields": {
+    "nome": "Carapaça Robusta",
+    "descricao": "Facilita a fuga de situações perigosas.",
+    "preco": "100.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/f/f2/Stalwart_Shell.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Aumenta a resistência. Ao se recuperar de danos, o portador permanecerá invulnerável por mais tempo."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 79,
+  "fields": {
+    "nome": "Apanhador de Almas",
+    "descricao": "Usado pelos xamãs para atrair mais ALMA do mundo ao seu redor.",
+    "preco": "150.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/ca/Soul_Catcher.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Aumenta a quantidade de ALMA recebida quando um oponente é atingido com o ferrão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 80,
+  "fields": {
+    "nome": "Pedra do Xamã",
+    "descricao": "Diz-se que contém o conhecimento das gerações passadas dos xamãs.",
+    "preco": "110.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/5e/Shaman_Stone.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Aumenta o poder das magias, causando mais dano aos oponentes."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 81,
+  "fields": {
+    "nome": "Devorador de Almas",
+    "descricao": "Artefato xamã esquecido, usado para extrair ALMA de criaturas ainda vivas.",
+    "preco": "300.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/6c/Soul_Eater.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 4,
+    "efeito": "Aumenta consideravelmente a quantidade de ALMA recebida quando um oponente é atingido com o ferrão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 82,
+  "fields": {
+    "nome": "Mestre da Esquiva",
+    "descricao": "Se assemelha a um inseto excêntrico conhecido apenas como 'O Mestre das Esquivas'.",
+    "preco": "200.00",
+    "categoria": 4,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/70/Dashmaster.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "O portador será capaz de esquivar mais frequentemente, bem como esquivar para baixo. Perfeito para aqueles que querem se mover o mais rápido possível."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 83,
+  "fields": {
+    "nome": "Mestre da Corrida",
+    "descricao": "Toma a semelhança de um inseto estranho conhecido apenas como 'O Mestre da Corrida'.",
+    "preco": "200.00",
+    "categoria": 4,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/e9/Sprintmaster.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta a velocidade do portador, permitindo que ele evite perigo ou supere rivais."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 84,
+  "fields": {
+    "nome": "Canção das Larvas",
+    "descricao": "Contém a gratidão de larvas que foram salvas.",
+    "preco": "220.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/78/Grubsong.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": 5.0,
+    "slot_custo": 1,
+    "efeito": "Recebe ALMA sempre que dano for recebido."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 85,
+  "fields": {
+    "nome": "Elegia da Larvamosca",
+    "descricao": "Contém a poesia das larvas que evoluíram para o próximo estágio de suas vidas. Infunde armas com uma energia sagrada.",
+    "preco": "440.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/bd/Grubberfly%27s_Elegy.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Quando o portador está com a vida cheia, ele lançará feixes de energia branca através de seu ferrão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 86,
+  "fields": {
+    "nome": "Coração Frágil",
+    "descricao": "Este amuleto é frágil, e irá se quebrar se o portador for morto.",
+    "preco": "175.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/13/Fragile_Heart.png",
+    "dano": null,
+    "defesa": 3.0,
+    "durabilidade": 1,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Aumenta a vida do portador, permitindo-lhe sofrer mais dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 87,
+  "fields": {
+    "nome": "Coração Inquebrável",
+    "descricao": "Este amuleto é inquebrável.",
+    "preco": "6000.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/15/Unbreakable_Heart.png",
+    "dano": null,
+    "defesa": 3.0,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Aumenta a vida do portador, permitindo-lhe sofrer mais dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 88,
+  "fields": {
+    "nome": "Ganância Frágil",
+    "descricao": "Este amuleto é frágil, e irá se quebrar se o portador for morto.",
+    "preco": "125.00",
+    "categoria": 3,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b6/Fragile_Greed.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": 1,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Faz com que o portador encontre mais Rosários ao derrotar inimigos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 89,
+  "fields": {
+    "nome": "Ganância Inquebrável",
+    "descricao": "Este amuleto é inquebrável.",
+    "preco": "4500.00",
+    "categoria": 3,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/2a/Unbreakable_Greed.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Faz com que o portador encontre mais Rosários ao derrotar inimigos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 90,
+  "fields": {
+    "nome": "Força Frágil",
+    "descricao": "Este amuleto é frágil, e irá se quebrar se o portador for morto.",
+    "preco": "300.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/7b/Fragile_Strength.png",
+    "dano": 20,
+    "defesa": null,
+    "durabilidade": 1,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Fortalece o portador, aumentando o dano causado aos inimigos com o ferrão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 91,
+  "fields": {
+    "nome": "Força Inquebrável",
+    "descricao": "Este amuleto é inquebrável.",
+    "preco": "7500.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/a/ac/Unbreakable_Strength.png",
+    "dano": 20,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Fortalece o portador, aumentando o dano causado aos inimigos com o ferrão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 92,
+  "fields": {
+    "nome": "Dobrador de Magias",
+    "descricao": "Refletindo os desejos do Santuário das Almas de dominar a ALMA, melhora a capacidade do portador de lançar magias.",
+    "preco": "500.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/3/33/Spell_Twister.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Reduz o custo de ALMA para a canalização de magias."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 93,
+  "fields": {
+    "nome": "Corpo Firme",
+    "descricao": "Mantém seu portador firme, prevenindo-o de recuar quando atingir um inimigo com o Ferrão.",
+    "preco": "60.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/f/f5/Steady_Body.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Permite que se mantenha firme e continue atacando."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 94,
+  "fields": {
+    "nome": "Golpe Pesado",
+    "descricao": "Formado a partir dos ferrões de guerreiros caídos.",
+    "preco": "175.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/f/f6/Heavy_Blow.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Aumenta a força do ferrão do portador, causando inimigos a recuar mais quando atingidos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 95,
+  "fields": {
+    "nome": "Corte Rápido",
+    "descricao": "Nascidos de ferrões imperfeitos e descartados que se fundiram. Os ferrões ainda anseiam ser empunhados.",
+    "preco": "400.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/5f/Quick_Slash.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Permite que o portador corte muito mais rapidamente com seu ferrão."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 96,
+  "fields": {
+    "nome": "Ferrão Longo",
+    "descricao": "Aumenta o alcance do ferrão do portador, permitindo que ele ataque inimigos de mais longe.",
+    "preco": "150.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/d/d1/Longnail.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Aumenta o alcance do ferrão do portador, permitindo que ele ataque inimigos de mais longe."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 97,
+  "fields": {
+    "nome": "Marca de Orgulho",
+    "descricao": "Livremente dado pela Tribo Louva-a-Deus para aqueles que eles respeitam.",
+    "preco": "300.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/69/Mark_of_Pride.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Aumenta consideravelmente o alcance do ferrão do portador, permitindo-lhe atingir os inimigos de mais longe."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 98,
+  "fields": {
+    "nome": "Fúria dos Caídos",
+    "descricao": "Incorpora a fúria e o heroísmo que vem sobre aqueles que estão prestes a morrer.",
+    "preco": "100.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/4f/Fury_of_the_Fallen.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Quando próximo da morte, a força do portador irá aumentar."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 99,
+  "fields": {
+    "nome": "Espinhos da Agonia",
+    "descricao": "Sente a dor do seu portador e ataca o mundo ao seu redor.",
+    "preco": "120.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/8f/Thorns_of_Agony.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Quando dano é recebido, brotam-se vinhas espinhentas que machucam inimigos próximos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 100,
+  "fields": {
+    "nome": "Carapaça de Baldur",
+    "descricao": "A carapaça não é indestrutível e se quebrará se absorver muito dano.",
+    "preco": "110.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/21/Baldur_Shell.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": 20,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Protege o portador com uma carapaça dura enquanto estiver focando ALMA."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 101,
+  "fields": {
+    "nome": "Ninho de Flukes",
+    "descricao": "Um Amuleto vivo que nasceu no intestino de uma Flukemarm.",
+    "preco": "200.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/79/Flukenest.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Transforma a magia Espirito sic Vingativo em uma horda de voláteis bebês flukes."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 102,
+  "fields": {
+    "nome": "Insignia do Defensor",
+    "descricao": "Amuleto único concedido pelo Rei de Hallownest ao seu mais leal cavaleiro. Gasto e sujo, mas bem cuidado.",
+    "preco": "150.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/56/Defender%27s_Crest.png",
+    "dano": 4,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "O portador irá emitir um odor heróico."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 103,
+  "fields": {
+    "nome": "Útero Brilhante",
+    "descricao": "As crias não desejam comer e nem viver, e se sacrificarão para proteger o seu progenitor.",
+    "preco": "400.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/c6/Glowing_Womb.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Drena a ALMA de seu portador e a utiliza para parir crias."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 104,
+  "fields": {
+    "nome": "Foco Rápido",
+    "descricao": "Um amuleto que contém uma lente de cristal.",
+    "preco": "400.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/6a/Quick_Focus.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Aumenta a velocidade do foco de ALMA, permitindo que o portador se cure mais rapidamente."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 105,
+  "fields": {
+    "nome": "Foco Profundo",
+    "descricao": "Naturalmente formado dentro de um cristal durante um longo período. Atrai ALMA do ar que nos rodeia.",
+    "preco": "800.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/ea/Deep_Focus.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 4,
+    "efeito": "O portador irá focar ALMA em um ritmo mais lento, mas o efeito de cura será dobrado."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 106,
+  "fields": {
+    "nome": "Coração de Sangue Vital",
+    "descricao": "Contém um núcleo vivo que goteja sangue vital precioso.",
+    "preco": "125.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/7c/Lifeblood_Heart.png",
+    "dano": null,
+    "defesa": 2.0,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Ao descansar, o portador irá ganhar uma camada de Sangue Vital que lhe protege de uma moderada quantidade de dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 107,
+  "fields": {
+    "nome": "Núcleo de Sangue Vital",
+    "descricao": "Contém um núcleo vivo que derrama sangue vital precioso.",
+    "preco": "250.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/81/Lifeblood_Core.png",
+    "dano": null,
+    "defesa": 4.0,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Ao descansar, o portador irá ganhar uma camada de Sangue Vital que lhe protege de uma grande quantidade de dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 108,
+  "fields": {
+    "nome": "Bênção de Joni",
+    "descricao": "Abençoado por Joni, a gentil herege. Transfigura os fluidos vitais para sangue vital azul.",
+    "preco": "500.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/67/Joni%27s_Blessing.png",
+    "dano": null,
+    "defesa": 4.0,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 4,
+    "efeito": "O portador terá uma carapaça mais saudável e poderá receber mais dano, porém ele será incapaz de se curar focando ALMA."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 109,
+  "fields": {
+    "nome": "Sangue da Colmeia",
+    "descricao": "Pepita dourada de um precioso néctar endurecido da Colmeia.",
+    "preco": "500.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/eb/Hiveblood.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 4,
+    "efeito": "Cura as feridas do portador ao longo do tempo, permitindo-o recuperar vida sem focar ALMA."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 110,
+  "fields": {
+    "nome": "Cogumelo com Esporos",
+    "descricao": "Composto por fungos vivos. Dispersa esporos em contato com a ALMA",
+    "preco": "200.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/78/Spore_Shroom.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Ao focar a ALMA, emite uma nuvem de esporos que danifica lentamente os inimigos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 111,
+  "fields": {
+    "nome": "Sombra Afiada",
+    "descricao": "Contém um feitiço proibido que transforma as sombras em armas mortais.",
+    "preco": "300.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/1/13/Sharp_Shadow.png",
+    "dano": 10,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Ao se utilizar Esquiva Sombria, o corpo do portador se afiará e danificará inimigos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 112,
+  "fields": {
+    "nome": "Forma de Unn",
+    "descricao": "Revela a forma de Unn dentro do portador.",
+    "preco": "320.00",
+    "categoria": 4,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b4/Shape_of_Unn.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Enquanto estiver focando ALMA, o portador assumirá uma nova forma e poderá se mover livremente para evitar inimigos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 113,
+  "fields": {
+    "nome": "Glória do Mestre do Ferrão",
+    "descricao": "Contém a paixão, a habilidade e os arrependimentos de um Mestre do Ferrão.",
+    "preco": "430.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/0/0f/Nailmaster%27s_Glory.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 1,
+    "efeito": "Aumenta a maestria do portador sob as Artes do Ferrão, permitindo-o focar seus poderes mais rapidamente, e os liberar mais cedo."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 114,
+  "fields": {
+    "nome": "Canção das Tecelãs",
+    "descricao": "Amuleto sedoso contendo uma música de despedida, deixada pelas Tecelãs que partiram de Hallownest para sua antiga casa.",
+    "preco": "540.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/26/Weaversong.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Invoca pequenas tecelãs para dar ao portador solitário um pouco de companheirismo e proteção."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 115,
+  "fields": {
+    "nome": "Portador dos Sonhos",
+    "descricao": "Amuleto transitório criado para aqueles que usam o Ferrão dos Sonhos e coletam Essência.",
+    "preco": "400.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/94/Dream_Wielder.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": 5.0,
+    "slot_custo": 1,
+    "efeito": "Permite ao portador carregar o Ferrão dos Sonhos mais rapidamente e coletar mais ALMA atingindo inimigos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 116,
+  "fields": {
+    "nome": "Escudo dos Sonhos",
+    "descricao": "Amuleto defensivo outrora usado por uma tribo que poderia moldar sonhos.",
+    "preco": "400.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/47/Dreamshield.png",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Conjura um escudo que segue o portador e tenta protegê-lo."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 117,
+  "fields": {
+    "nome": "Criança Grimm",
+    "descricao": "Usado por aqueles que participam do Ritual da Trupe Grimm.",
+    "preco": "700.00",
+    "categoria": 2,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/91/Grimmchild.png",
+    "dano": 11,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 2,
+    "efeito": "Invoca uma companhia voadora que dá 11 de dano por tiro"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 118,
+  "fields": {
+    "nome": "Melodia Despreocupada",
+    "descricao": "Um símbolo comemorando o começo de uma amizade.",
+    "preco": "700.00",
+    "categoria": 5,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/c/c4/Carefree_Melody.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 3,
+    "efeito": "Tem uma chance de bloquear dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 119,
+  "fields": {
+    "nome": "Alma do Rei",
+    "descricao": "Amuleto sagrado simbolizando a união entre seres superiores.",
+    "preco": "2500.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/3/34/Kingsoul.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": 5,
+    "efeito": "O portador irá lentamente absorver a ALMA ilimitada contida interiormente."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 120,
+  "fields": {
+    "nome": "Coração Vazio",
+    "descricao": "Um vazio escondido interiormente, agora sem restrições. Unifica o vazio sob a vontade do portador.",
+    "preco": "5000.00",
+    "categoria": 7,
+    "tipo": 1,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/bb/Void_Heart.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Você se torna parte do vazio"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 121,
+  "fields": {
+    "nome": "Fragmento de Máscara ( Cavaleiro )",
+    "descricao": "Fragmentos de uma máscara antiga, usada para proteger-se de danos.\r\n\r\nColete mais para fortalecer a sua carapaça e se proteger contra danos.",
+    "preco": "750.00",
+    "categoria": 5,
+    "tipo": 4,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/69/Mask_Shard.png",
+    "dano": null,
+    "defesa": 0.25,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 122,
+  "fields": {
+    "nome": "Máscara Antiga ( Cavaleiro )",
+    "descricao": "Uma máscara completa. Quando inteira, uma máscara protege seu usuário, protegendo sua verdadeira forma.",
+    "preco": "3000.00",
+    "categoria": 5,
+    "tipo": 6,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/20/Ancient_Mask.png",
+    "dano": null,
+    "defesa": 1.0,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Aumenta o máximo de máscaras"
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 123,
+  "fields": {
+    "nome": "Ovo Rançoso",
+    "descricao": "Ovo gorduroso e podre de uma criatura desconhecida. Emite um forte cheiro de decomposição.\r\n\r\nGeralmente não é considerado comestível.",
+    "preco": "50.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/3/3f/Rancid_Egg.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 124,
+  "fields": {
+    "nome": "Diário de Viajante",
+    "descricao": "Um Diário deixado por um viajante morto. As palavras estão escritas em um dialeto esquecido e difícil de entender.\r\n\r\nRelíquia do passado de Hallownest. Este item agora tem pouco valor, exceto para aqueles dedicados à história do reino.",
+    "preco": "100.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b5/Wanderer%27s_Journal.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 125,
+  "fields": {
+    "nome": "Selo de Hallownest",
+    "descricao": "Selo oficial do Reino de Hallownest, simbolizando a autoridade do Rei e de seus Cavaleiros.\r\n\r\nRelíquia do passado de Hallownest. Este item agora tem pouco valor, exceto para aqueles dedicados à história do reino.",
+    "preco": "225.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/3/38/Hallownest_Seal.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 126,
+  "fields": {
+    "nome": "Ídolo do Rei",
+    "descricao": "Um ídolo branco que representa o Rei de Hallownest. O rei elusivo foi adorado através desses ídolos.\r\n\r\nRelíquia do passado de Hallownest. Este item agora tem pouco valor, exceto para aqueles dedicados à história do reino.",
+    "preco": "400.00",
+    "categoria": 8,
+    "tipo": 5,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/d/d2/King%27s_Idol.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 127,
+  "fields": {
+    "nome": "Manto de Asa de Mariposa",
+    "descricao": "Manto feito com fibras da asa de uma mariposa.",
+    "preco": "1200.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/a/a2/Icon_HK_Mothwing_Cloak.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Permite que o usuário dê uma esquiva para frente, no solo ou no ar."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 128,
+  "fields": {
+    "nome": "Asas do Monarca",
+    "descricao": "Asas de um material etéreo que brilha no escuro",
+    "preco": "2300.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/9/9b/Icon_HK_Monarch_Wings.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Permite que seu portador salte novamente no ar."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 129,
+  "fields": {
+    "nome": "Garra de Louva-a-Deus",
+    "descricao": "Garra esculpida de osso.",
+    "preco": "650.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/bf/Icon_HK_Mantis_Claw.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Permite que o usuário se agarre em paredes e pule delas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 130,
+  "fields": {
+    "nome": "Coração de Cristal",
+    "descricao": "O núcleo de energia de um golem minerador antigo, formado em torno de um cristal potente",
+    "preco": "1230.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/e8/Icon_HK_Crystal_Heart.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "A energia do cristal pode ser canalizada para lançar o seu portador para frente em velocidades perigosas."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 131,
+  "fields": {
+    "nome": "Lágrima de Isma",
+    "descricao": "Fruta formada de uma única lágrima endurecida",
+    "preco": "1200.00",
+    "categoria": 3,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/8/8c/Icon_HK_Isma%27s_Tear.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Uma vez ingerida, fornece proteção contra as piscinas abrasivas e ácidas encontradas em algumas partes de Hallownest."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 132,
+  "fields": {
+    "nome": "Manto Sombrio",
+    "descricao": "Manto formado pela substância negra do Abismo",
+    "preco": "4000.00",
+    "categoria": 4,
+    "tipo": 8,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/7/75/Icon_HK_Shade_Cloak.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "Permite que seu portador esquive por dentro de inimigos e seus ataques sem levar dano."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 133,
+  "fields": {
+    "nome": "Ferrão dos Sonhos",
+    "descricao": "ermite que o portador corte o véu entre os sonhos e a realidade. Pode ser usado para revelar sonhos escondidos ou abrir passagens.",
+    "preco": "2000.00",
+    "categoria": 3,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/a/a2/Icon_HK_Dream_Nail.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "O Ferrão dos Sonhos pode coletar Essência, remanescentes de desejos e sonhos."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 134,
+  "fields": {
+    "nome": "Ferrão dos Sonhos Despertado",
+    "descricao": "Permite que o portador corte o véu entre os sonhos e a realidade. Pode ser usado para revelar sonhos escondidos ou abrir passagens.",
+    "preco": "7000.00",
+    "categoria": 3,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b0/Icon_HK_Awoken_Dream_Nail.png",
+    "dano": null,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": "O poder do Ferrão dos Sonhos foi totalmente despertado, permitindo a entrada em certas memórias protegidas.."
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 135,
+  "fields": {
+    "nome": "Ferrão Velho",
+    "descricao": "Uma arma tradicional de Hallownest. Sua lâmina está cega devido ao tempo e ao desgaste.",
+    "preco": "50.00",
+    "categoria": 2,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/65/Nail_1_Old_Nail.png?20170717212304",
+    "dano": 5,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 136,
+  "fields": {
+    "nome": "Ferrão Afiado",
+    "descricao": "Uma arma tradicional de Hallownest, restaurada a uma forma letal",
+    "preco": "125.00",
+    "categoria": 2,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/0/0e/Nail_2_Sharpened_Nail.png?20170717212321",
+    "dano": 9,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 137,
+  "fields": {
+    "nome": "Ferrão Canalizado",
+    "descricao": "Uma arma fendida de Hallownest. A lâmina é primorosamente balanceada.",
+    "preco": "400.00",
+    "categoria": 2,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/2/29/Nail_3_Channelled_Nail.png?20170717212328",
+    "dano": 13,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 138,
+  "fields": {
+    "nome": "Ferrão Serpenteado",
+    "descricao": "Uma poderosa arma de Hallownest, refinada como nenhuma outra.",
+    "preco": "1000.00",
+    "categoria": 2,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/e4/Nail_4_Coiled_Nail.png?20170717212335",
+    "dano": 17,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.produto",
+  "pk": 139,
+  "fields": {
+    "nome": "Ferrão Puro",
+    "descricao": "A arma definitiva de Hallownest. Trabalhada à perfeição, esse ferrão antigo revela sua verdadeira forma.",
+    "preco": "2100.00",
+    "categoria": 2,
+    "tipo": 10,
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/4/4a/Nail_5_Pure_Nail.png?20170717212343",
+    "dano": 21,
+    "defesa": null,
+    "durabilidade": null,
+    "seda": null,
+    "alma": null,
+    "slot_custo": null,
+    "efeito": ""
+  }
+},
+{
+  "model": "produtos.itempedido",
+  "pk": 5,
+  "fields": {
+    "pedido": 3,
+    "produto": 12,
+    "quantidade": 1,
+    "preco_unitario": "340.00",
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/b/b3/Silkshot.png"
+  }
+},
+{
+  "model": "produtos.itempedido",
+  "pk": 6,
+  "fields": {
+    "pedido": 3,
+    "produto": 29,
+    "quantidade": 1,
+    "preco_unitario": "440.00",
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/5/5f/Weavelight.png"
+  }
+},
+{
+  "model": "produtos.itempedido",
+  "pk": 7,
+  "fields": {
+    "pedido": 4,
+    "produto": 4,
+    "quantidade": 1,
+    "preco_unitario": "140.00",
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/6/69/Sting_Shard.png"
+  }
+},
+{
+  "model": "produtos.itempedido",
+  "pk": 8,
+  "fields": {
+    "pedido": 5,
+    "produto": 5,
+    "quantidade": 1,
+    "preco_unitario": "120.00",
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/ef/Tacks.png"
+  }
+},
+{
+  "model": "produtos.itempedido",
+  "pk": 9,
+  "fields": {
+    "pedido": 6,
+    "produto": 5,
+    "quantidade": 30,
+    "preco_unitario": "120.00",
+    "imagem": "https://cdn.wikimg.net/en/hkwiki/images/e/ef/Tacks.png"
+  }
+}
+]
